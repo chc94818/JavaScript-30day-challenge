@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Piano Kit</title>
+    <link rel="preload" as="image" href="./moutain.jpg">
+    <link rel="preload" as="image" href="./moutain-low.jpg">
+    <link href="./style.css" rel="stylesheet">
+    <link href="./font-face.css" rel="stylesheet">
+    <link rel="icon" href="./keyboard.svg" />
+    <link rel="preload" href="https://fonts.gstatic.com/s/inconsolata/v21/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyya15.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/inconsolata/v21/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyya15.woff2" as="font" type="font/woff2" crossorigin>
+  </head>
+  <body>
+    <div class="audio-list-container">
+      <ul class="audio-list">
+        <li data-key='65' class="audio-card">
+          <h1>A</h1>
+          <span>DO</span>
+        </li>
+        <li data-key='83' class="audio-card">
+          <h1>S</h1>
+          <span>RE</span>
+        </li>
+        <li data-key='68' class="audio-card">
+          <h1>D</h1>
+          <span>MI</span>
+        </li>
+        <li data-key='70' class="audio-card">
+          <h1>F</h1>
+          <span>FA</span>
+        </li>
+        <li data-key='71' class="audio-card">
+          <h1>G</h1>
+          <span>SOL</span>
+        </li>
+        <li data-key='72' class="audio-card">
+          <h1>H</h1>
+          <span>LA</span>
+        </li>
+        <li data-key='74' class="audio-card">
+          <h1>J</h1>
+          <span>TI</span>
+        </li>
+        <li data-key='75' class="audio-card">
+          <h1>K</h1>
+          <span>DO</span>
+        </li>
+      </ul>
+      <h1 class="hint">- PRESS KEYS TO PLAY -</h1>
+    </div>
+
+
+    <audio data-key='65' preload="auto" src="./audios/c3.mp3"></audio>
+    <audio data-key='83' preload="auto" src="./audios/d3.mp3"></audio>
+    <audio data-key='68' preload="auto" src="./audios/e3.mp3"></audio>
+    <audio data-key='70' preload="auto" src="./audios/f3.mp3"></audio>
+    <audio data-key='71' preload="auto" src="./audios/g3.mp3"></audio>
+    <audio data-key='72' preload="auto" src="./audios/a3.mp3"></audio>
+    <audio data-key='74' preload="auto" src="./audios/b3.mp3"></audio>
+    <audio data-key='75' preload="auto" src="./audios/c4.mp3"></audio>
+  </body>
+  <script type="text/javascript" src="./script.js"></script>
+</html>
