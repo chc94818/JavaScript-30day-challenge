@@ -4,11 +4,11 @@ const path = require('path');
 
 const hostname = 'localhost';
 const port = 3000;
-
+const PUBLIC_URL = './public'
 const server = http.createServer((request, res) => {
-  var filePath = '.' + request.url;
-  if (filePath == './') {
-    filePath = './index.html';
+  var filePath = PUBLIC_URL + request.url;
+  if (filePath === './public/') {
+    filePath = PUBLIC_URL + '/index.html';
   }
 
   const ext = path.parse(filePath).ext;
