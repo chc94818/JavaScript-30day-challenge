@@ -50,13 +50,13 @@ function makeGreen() {
 
   // // counting
 
-  console.count('Wes');
-  console.count('Wes');
+  console.count('Wow');
+  console.count('Wow');
   console.count('Steve');
   console.count('Steve');
-  console.count('Wes');
+  console.count('Wow');
   console.count('Steve');
-  console.count('Wes');
+  console.count('Wow');
   console.count('Steve');
   console.count('Steve');
   console.count('Steve');
